@@ -15,7 +15,7 @@ fetch('https://agile-meadow-78327.herokuapp.com/newsapi.org/v2/top-headlines?cou
             <td>${news.title}</td>
             <td>${news.description}</td>
             <td>${news.author}</td>
-            <td><a href="${news.url}">Click here</a></td>
+            <td><a href="${news.url}" target="_blank">Click here</a></td>
             </tr>        `;
         })
 

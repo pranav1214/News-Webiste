@@ -7,7 +7,6 @@ fetch('https://agile-meadow-78327.herokuapp.com/newsapi.org/v2/top-headlines?cou
             return response.json();
     })
     .then(data =>{
-        console.log(data.data.articles);
         var finalData = data.data.articles.map(news => {
             return `
             <tr class="text-center">
